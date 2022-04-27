@@ -1,5 +1,5 @@
 # Gimbal con Inteligencia Artificial
-Hola chicos en este repositorio encontraran el codigo fuente para tomar una camara usb, dos servomotores y un arduino y convertirlos en un gimbal inteligente capaz de seguir rostros.
+Hola chicos en este repositorio encontraran el codigo fuente para tomar una camara usb, dos servomotores, un arduino y convertirlos en un gimbal inteligente capaz de seguir rostros.
 
 ### Explicacion:
 - En el archivo Gimbal.py encontraras el codigo general que debes implementar en Python para realizar una deteccion de rostros a traves de Mediapipe y posterior a eso establecer una comunicacion serial con Arduino, no olvides descargar el archivo Gimbal.ino en tu placa, ¡Ten cuidado!, una vez realizamos la deteccion de rostros nos comunicamos con nuestra placa de arduino para empezar a dirigir los servomotores hacia nuestro rostro.
